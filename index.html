@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de investimentos</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/ciclic.png" alt="logo-ciclic">
+    </header>
+
+    <main>
+        <section class="home">
+            <h2>Simule Juros compostos</h2>
+            <div class="formulario">
+                <p>
+                    <input type="text" name="nome" id="nomeInput" required placeholder="Digite seu nome">
+                </p>
+                <p>
+                    <input type="number" name="mensalidadeInput" id="mensalidadeInput" required
+                        placeholder="Valor Mensal">
+                </p>
+                <p class="selectContainer">
+                    <select name="tempoSelect" id="tempoSelect">
+                        <option value="12">1 Ano</option>
+                        <option value="24">2 Anos</option>
+                        <option value="36">3 Anos</option>
+                    </select>
+                </p>
+            </div>
+            <button class="button">Simular</button>
+        </section>
+
+        <section class="mostrarResultado">
+
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

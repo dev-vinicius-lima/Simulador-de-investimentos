@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.home {
+    color: #72F951;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 30px;
+    background-color: #DDF7F6;
+    height: 500px;
+    width: 350px
+}
+
+input {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#tempoSelect {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.home>button {
+    width: 50%;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #72F951;
+    color: black;
+}
+
+.mostrarResultado {
+
+    display: none;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    gap: 15px;
+    background-color: #DDF7F6;
+    height: 500px;
+    width: 320px;
+    letter-spacing: 1px;
+}
+
+.mostrarResultado>button {
+    width: 50%;
+    border: none;
+    border-radius: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #72F951;
+    color: black;
+}
